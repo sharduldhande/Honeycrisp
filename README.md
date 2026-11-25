@@ -55,8 +55,9 @@ the flow covers the whole list you're playing, shuffled lists included.
 
 ## Privacy
 
-Honeycrisp sends anonymous usage and bug counts (no account, no IP address, no location) so we know it
-works; you can turn this off in Settings. Otherwise it talks only to Apple, and to Last.fm if you
+Honeycrisp sends anonymous usage and bug counts so we know it works. They carry a random ID for this
+install, not linked to you or your Apple Account, and no IP address or location. You can turn this
+off in Settings. Otherwise it talks only to Apple, and to Last.fm if you
 connect it.
 
 ---
