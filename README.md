@@ -32,7 +32,7 @@ underneath.
 
 ## Cover Flow is back (in Metal)
 
-![Cover Flow](images/coverflow.png)
+[![Cover Flow](images/coverflow.webp)](images/coverflow.mp4)
 
 Open the full player to flip through your active or shuffled queue as a 3D wall of album covers
 with live reflections. Flick, drag, use arrow keys, click any cover to play, or pinch to change
