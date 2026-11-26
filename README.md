@@ -86,7 +86,7 @@ Full tables and 8 GB memory-pressure tests are in
 
 ```mermaid
 flowchart LR
-    UI["Honeycrisp<br/>AppKit · Metal · CoreText"] -- "op-based Swift API" --> B["AMBridge<br/>Swift MusicKit & API package"]
+    UI["Honeycrisp<br/>AppKit · Metal · CoreText"] -- "Swift API" --> B["AMBridge<br/>Swift MusicKit & API package"]
     B --> MK["MusicKit<br/>auth, playback, queue"]
     B --> API["Apple Music API<br/>library, catalog, search"]
     B --> PP["Public pages<br/>Radio, New, rooms, shows"]
@@ -94,7 +94,7 @@ flowchart LR
 ```
 
 Honeycrisp separates its AppKit/Metal UI from `AMBridge`, a local Swift package wrapping MusicKit,
-Apple Music API calls, and disk stores behind a single op-based request/response interface. Keeping
+Apple Music API calls, and disk stores behind one small Swift API. Keeping
 that narrow seam (originally designed for an early Rust prototype) isolates UI rendering from
 playback and network state, and lets automated tests drive the exact same operations
 deterministically without hitting the network.
