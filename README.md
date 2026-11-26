@@ -26,7 +26,7 @@ Results update on every keystroke with no Return: your library answers immediate
 (with typo tolerance and romanized spelling matching), while Apple Music catalog results stream in
 underneath.
 
-[▶ Watch live search (MP4)](images/search.mp4)
+[![Live search](images/search.webp)](images/search.mp4)
 
 ---
 
@@ -126,7 +126,7 @@ deterministically without hitting the network.
 ## Full numbers
 
 <details>
-<summary>Every comparison — including under 8 GB memory pressure</summary>
+<summary><b>Click to expand:</b> every comparison, including under 8 GB memory pressure</summary>
 
 Measured on a Mac mini M1 (8 GB, macOS 27.2) with the same account and library (2,353 songs,
 1,427 albums), Music 1.7.2, apps alternating. Full methods and raw per-run logs are in
